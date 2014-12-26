@@ -105,6 +105,15 @@
                                     <rect key="frame" x="247" y="133" width="57" height="60"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QT2-TG-8gW">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="133" width="211" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="ZS2-ao-7OZ"/>
                                 <exclude reference="wfE-0c-Xgi"/>
                                 <exclude reference="ze4-nh-8l3"/>
+                                <exclude reference="QT2-TG-8gW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="ZS2-ao-7OZ"/>
                                 <include reference="wfE-0c-Xgi"/>
                                 <include reference="ze4-nh-8l3"/>
+                                <include reference="QT2-TG-8gW"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="CUK-dq-0pN" id="rsj-fs-Zt8"/>
                         <outlet property="mailButton" destination="ZS2-ao-7OZ" id="sr6-ul-ftp"/>
                         <outlet property="messageLabel" destination="wfE-0c-Xgi" id="qaV-09-ZJl"/>
+                        <outlet property="nameLabel" destination="QT2-TG-8gW" id="ePB-w3-UvS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
